@@ -13,7 +13,7 @@ do
     conversor.ValidaTipoNota(nota);
     conversor.CalcularPorcentagem(nota);
 
-    WriteLine("\nContinuar avaliando alunos, digite 1, senão digite 0:");
+    WriteLine("\nContinuar avaliando, digite 1, senão digite 0:");
     stop = Convert.ToInt32(ReadLine());
     Clear();
 } while (stop > 0);
