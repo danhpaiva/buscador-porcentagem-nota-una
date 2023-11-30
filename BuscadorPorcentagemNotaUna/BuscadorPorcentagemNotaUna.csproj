@@ -12,6 +12,8 @@
     <PackageIcon>1516240_eighty_percent_rate_ten_icon.png</PackageIcon>
     <RepositoryUrl>https://github.com/danhpaiva/buscador-porcentagem-nota-una</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Title>Buscador Porcentagem Nota UNA</Title>
+    <PackageTags>note</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
