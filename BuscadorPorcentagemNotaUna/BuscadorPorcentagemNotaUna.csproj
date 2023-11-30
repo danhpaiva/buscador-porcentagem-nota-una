@@ -9,7 +9,7 @@
     <Description>Calculadora Porcentagem - Daniel Paiva</Description>
     <Copyright>Daniel Paiva</Copyright>
     <PackageProjectUrl>https://github.com/danhpaiva/buscador-porcentagem-nota-una</PackageProjectUrl>
-    <PackageIcon>1516240_eighty_percent_rate_ten_icon.png</PackageIcon>
+    <PackageIcon>program.png</PackageIcon>
     <RepositoryUrl>https://github.com/danhpaiva/buscador-porcentagem-nota-una</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Title>Buscador Porcentagem Nota UNA</Title>
@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\Paiva\Desktop\1516240_eighty_percent_rate_ten_icon.png">
+    <None Update="ico\program.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
