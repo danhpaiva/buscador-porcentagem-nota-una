@@ -5,6 +5,24 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>ico\program.ico</ApplicationIcon>
+    <Description>Calculadora Porcentagem - Daniel Paiva</Description>
+    <Copyright>Daniel Paiva</Copyright>
+    <PackageProjectUrl>https://github.com/danhpaiva/buscador-porcentagem-nota-una</PackageProjectUrl>
+    <PackageIcon>1516240_eighty_percent_rate_ten_icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/danhpaiva/buscador-porcentagem-nota-una</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ico\program.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Paiva\Desktop\1516240_eighty_percent_rate_ten_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
