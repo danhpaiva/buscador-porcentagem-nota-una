@@ -1,7 +1,7 @@
 <h1 align="center"> 🖳 Buscador Porcentagem Nota Una 🖳</h1>
 
 <p align="center">
-    <img src="https://github.com/danhpaiva/buscador-porcentagem-nota-una/blob/main/BuscadorPorcentagemNotaUna/ico/program.png?raw=true" width="300" alt="Buscador">
+    <img src="https://github.com/danhpaiva/buscador-porcentagem-nota-una/blob/main/BuscadorPorcentagemNotaUna/ico/program.png?raw=true" width="100" alt="Buscador">
 </p>
 
 <p align="center">
