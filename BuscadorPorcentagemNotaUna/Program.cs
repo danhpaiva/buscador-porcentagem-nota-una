@@ -10,6 +10,7 @@ do
     nota.TipoAvaliacao = Conversor.LerTipoNota();
     if(nota.TipoAvaliacao == 1 || nota.TipoAvaliacao == 3)
     {
+        Clear();
         WriteLine($"\nAvaliacao Escolhida: A{nota.TipoAvaliacao}");
         nota.NotaColetada = Conversor.LerNota();
         Conversor.ValidaTipoNota(nota);
@@ -23,6 +24,7 @@ do
         Clear();
         WriteLine("\nContinuar avaliando, digite 1, senão digite 0:");
         stop = Convert.ToInt32(ReadLine());
+        Clear();
     }
 } while (stop > 0);
 
