@@ -5,9 +5,9 @@ WriteLine($"\nInício Avaliação - {DateTime.Now}");
 Nota nota = new();
 int stop;
 
+nota.TipoAvaliacao = Conversor.LerTipoNota();
 do
 {
-    nota.TipoAvaliacao = Conversor.LerTipoNota();
     if(nota.TipoAvaliacao == 1 || nota.TipoAvaliacao == 3)
     {
         Clear();
