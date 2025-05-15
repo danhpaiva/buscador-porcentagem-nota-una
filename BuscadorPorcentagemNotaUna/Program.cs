@@ -3,19 +3,27 @@ using static System.Console;
 
 WriteLine($"\nInício Avaliação - {DateTime.Now}");
 Nota nota = new();
-Conversor conversor = new();
-int stop = 0;
+int stop;
 
 do
 {
-    nota.TipoNota = conversor.LerTipoNota();
-    nota.NotaColetada = conversor.LerNota();
-    conversor.ValidaTipoNota(nota);
-    conversor.CalcularPorcentagem(nota);
+    nota.TipoAvaliacao = Conversor.LerTipoNota();
+    if(nota.TipoAvaliacao == 1 || nota.TipoAvaliacao == 3)
+    {
+        WriteLine($"\nAvaliacao Escolhida: A{nota.TipoAvaliacao}");
+        nota.NotaColetada = Conversor.LerNota();
+        Conversor.ValidaTipoNota(nota);
+        Conversor.CalcularPorcentagem(nota);
 
-    WriteLine("\nContinuar avaliando, digite 1, senão digite 0:");
-    stop = Convert.ToInt32(ReadLine());
-    Clear();
+        WriteLine("\nContinuar avaliando, digite 1, senão digite 0:");
+        stop = Convert.ToInt32(ReadLine());
+        Clear();
+    } else
+    {
+        Clear();
+        WriteLine("\nContinuar avaliando, digite 1, senão digite 0:");
+        stop = Convert.ToInt32(ReadLine());
+    }
 } while (stop > 0);
 
-WriteLine("\nAté o próximo semestre!!! =)");
+WriteLine($"\nAté o próximo semestre!!! =) - {DateTime.Now}");

@@ -3,16 +3,16 @@ namespace BuscadorPorcentagemNotaUna.Models;
 
 public class Conversor
 {
-    public void ValidaTipoNota(Nota nota)
+    public static void ValidaTipoNota(Nota nota)
     {
-        nota.TetoNota = nota.TipoNota switch
+        nota.TetoNota = nota.TipoAvaliacao switch
         {
             1 => 30,
             3 => 40,
             _ => (double)1,
         };
     }
-    public void CalcularPorcentagem(Nota nota)
+    public static void CalcularPorcentagem(Nota nota)
     {
         if (nota.NotaColetada > 0)
         {
@@ -23,7 +23,7 @@ public class Conversor
         else
             WriteLine($"\n0% porcento!");
     }
-    public int LerTipoNota()
+    public static int LerTipoNota()
     {
         try
         {
@@ -38,7 +38,7 @@ public class Conversor
         }
     }
 
-    public double LerNota()
+    public static double LerNota()
     {
         try
         {
